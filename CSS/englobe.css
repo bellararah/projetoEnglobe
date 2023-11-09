@@ -1,0 +1,149 @@
+/* BLOCO 01A - ESTILO GERAL */
+ 
+ 
+ * {
+    font-family: 'Righteous', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*para que fiquem todos dentro da borda da caixa*/
+    text-decoration: none;
+ }
+
+ body {
+  background-color: #EDEEED;  
+  font-size: 100%;
+  height: 100vh;
+    
+ }
+
+ .limites-tela01 {
+  max-width: 1280px;
+  margin: 0 auto;
+ }
+
+ /* BLOCO 01B - ESTILO DO CABEÇALHO  */
+
+ header {
+  padding: 15px 4% ;
+ }
+
+header > .limites-tela01 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header a {
+  color: #365DCF;
+  font-size:  25px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+header a:hover {
+  color: #FF4EBF;
+  transform: scale(1.1);
+  transition: .2s;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.conteudo-principal-imagem-tela01 {
+  width: 1380px;
+}
+
+
+header .botao-login-tela01 button {
+  padding:  10px 40px;
+  font-size:  18px;
+  font-weight: 500;
+  background-color: #FF4EBF;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #EDEEED;
+}
+
+header .botao-login-tela01 button:hover {
+  box-shadow: 0px 0px 8px #365DCF;
+}
+
+.botao-lets-bora-englobar-tela01 button {
+  padding:  10px 40px;
+  font-size:  18px;
+  font-weight: 500;
+  background-color: #4015C1;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #EDEEED;
+}
+
+.botao-lets-bora-englobar-tela01 button:hover {
+  box-shadow: 0px 0px 8px #365DCF;
+}
+
+/* ESTILO DO FORMULÁRIO DE CONTATO */
+
+section.formulario {
+  padding:  80px 4%;
+
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+form input {
+  width: 100%;
+  background-color: rgba(114, 114, 114, 0.404);
+  border: 0;
+  outline: 0;
+  padding: 20px 15px;
+border-radius: 15px;
+color: black;
+font-size: 18px;
+}
+
+form input, form textarea {
+  width: 100%;
+  background-color: rgba(114, 114, 114, 0.404);
+  border: 0;
+  outline: 0;
+  padding: 20px 15px;
+  border-radius: 15px;
+  color: black;
+  font-size: 18px;
+}
+
+form textarea {
+  resize:  none;
+  max-height: 200px;
+}
+form .botao-lets-bora-englobar-tela01 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+form .botao-lets-bora-englobar-tela01 input {
+  width: 280px;
+  background-color: #FF4EBF;
+  color: white;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+header .botao-lets-bora-englobar-tela01 button:hover {
+  box-shadow: 0px 0px 8px #365DCF;
+}
